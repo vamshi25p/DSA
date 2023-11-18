@@ -6,6 +6,15 @@ public class Main {
         numbers.insert(20);
         numbers.insert(30);
         numbers.insert(40);
+        // numbers.removeAt(3);
+        // System.out.println(numbers.indexOf(10));
+        numbers.print();
+        System.out.println(numbers.max());
+        // numbers.reverse();
+        // numbers.print();
+        // numbers.intersect(numbers);
+        // numbers.print();
+        numbers.insertAt(50, 2);
         numbers.print();
     }
 }
